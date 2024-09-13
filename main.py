@@ -1,8 +1,13 @@
-Name = "Mike"
-print (Name, type (Name))
-Age = 37
-print (Age, type (Age))
-Age = int (Age +1)
-print (Age, type (Age))
-Is_Student = (True)
-print (Is_Student, type (Is_Student))
+first = int(input("Введите число: "))
+second = int(input("Введите число: "))
+third = int(input("Введите число: "))
+if first != second and first != third and second != third:
+    print('0')
+elif first == second and first !=third :
+    print("2")
+elif first != second and first == third:
+    print("2")
+elif first != second and first != third:
+    print("2")
+elif first == second and first == third and second == third:
+    print('3')
